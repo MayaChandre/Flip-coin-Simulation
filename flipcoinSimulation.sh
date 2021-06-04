@@ -10,6 +10,7 @@ else
     echo Tail wins
 fi
 
+
 Heads=0
 tails=0
 for (( i=0; i <20; i++ ));
@@ -24,4 +25,5 @@ fi
 done
 echo head won $heads times
 echo tail won $tail times
+
 
